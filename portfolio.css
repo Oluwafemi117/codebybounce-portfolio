@@ -109,11 +109,12 @@ a {
     top: -43px;
     left: -9px;
     right: 0;
+    padding: 50px 0;
 
     font-family: Oswald, sans-serif;
     font-weight: 700;
     font-size: clamp(120px, 26vw, 340px);
-    line-height: 1;
+    line-height: 0.85;
 
     color: #b90018;
     letter-spacing: -0.045em;
@@ -121,6 +122,18 @@ a {
     opacity: 0.88;
 
     pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+.giant-word span:first-child{
+    font-size: 0.35em;
+}
+
+.giant-word span:last-child{
+    font-size: 0.85em;
+    white-space: nowrap;
 }
 
 .hero-copy {
