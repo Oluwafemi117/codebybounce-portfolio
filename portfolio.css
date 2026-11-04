@@ -109,7 +109,7 @@ a {
     top: -43px;
     left: -9px;
     right: 0;
-    padding: 50px 0;
+    padding: 30px 0;
 
     font-family: Oswald, sans-serif;
     font-weight: 700;
@@ -117,7 +117,6 @@ a {
     line-height: 0.85;
 
     color: #b90018;
-    letter-spacing: -0.045em;
     white-space: nowrap;
     opacity: 0.88;
 
@@ -129,11 +128,14 @@ a {
 
 .giant-word span:first-child{
     font-size: 0.35em;
+    letter-spacing: -0.045em;
+    color: rgb(100, 37, 37);
 }
 
 .giant-word span:last-child{
     font-size: 0.85em;
     white-space: nowrap;
+    letter-spacing: -0.045em;
 }
 
 .hero-copy {
@@ -213,14 +215,6 @@ a {
     content: "";
     position: absolute;
     inset: 0;
-
-    background: linear-gradient(
-        90deg,
-        #050505 0%,
-        transparent 23%,
-        transparent 75%,
-        #050505 100%
-    );
 
     pointer-events: none;
 }
